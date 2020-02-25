@@ -19,6 +19,6 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: 'my artifact'
+        name: 'debug apk'
         # Directory containing files to upload
-        path: "build/app/outputs/apk/debug/*.apk"
+        path: "build/app/outputs/apk/debug/app-debug.apk"
